@@ -74,6 +74,7 @@ python main.py
 
 - Paths in the scripts are currently hardcoded to a local Windows directory (`D:\project\...`). Update these to relative paths before pushing/running on another machine.
 - `shutdown.py` is a standalone utility that restarts a Windows machine (`shutdown /r /t 1`) and is not wired into the gesture pipeline by default — hook it up if you'd like a gesture (e.g. a specific label) to trigger a system action.
+- contributed 
 
 ## License
 
