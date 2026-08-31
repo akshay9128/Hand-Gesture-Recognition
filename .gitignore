@@ -1,0 +1,39 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+ 
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+ 
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+ 
+# Jupyter
+.ipynb_checkpoints/
+ 
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+ 
+# OS
+.DS_Store
+Thumbs.db
+ 
+# Dataset (large image collections captured via datacollection.py)
+DATAS/
+dataset/
+data/
+ 
+# Trained model files (large binaries — consider Git LFS if you want to track these)
+*.h5
+converted_keras/
+ 
+# Logs
+*.log
